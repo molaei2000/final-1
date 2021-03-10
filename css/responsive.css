@@ -1,0 +1,351 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    header .nav-logo{
+        width: 13vw;
+        height: 12vmax;
+    }
+    header .nav-item .nav-link{
+        font-size: 4vw;
+    }
+    header .main-title{
+        font-size: 6vw;
+    }
+    header #date{
+        font-size: 4vw;
+    }
+    .carousel-prev-icon,.carousel-next-icon{
+        font-size: 10vw;
+    }
+    #main .alert p{
+        font-size: 2.5vw !important;
+    }
+    #main .inquiry .title::after{
+        content: none;
+        
+    }
+    #main .inquiry .title::before{
+        content: none;
+    }
+    #main #article .title::after{
+        content: none;
+    }
+    #main #article .title::before{
+        content: none;
+    }
+    #def .conditions .title::after{
+        content: none;
+    }
+    #def .conditions .title::before{
+        content: none;
+    }
+    #def .credit .title::after{
+        content: none;
+    }
+    #def .credit .title::before{
+        content: none;
+    }
+    #def .list-item .p1{
+        font-size: 5.5vw;
+        color: var(--royal);
+        font-weight: bold;
+    }
+    #def .list-item .p2{
+        font-size: 4vw;
+        color: #666666;
+    }
+    #def p{
+        font-size: 4vw;
+        color: #666666;
+    }
+    #article .card-header a{
+        font-size: 5vw;
+    }
+    #article .card-img-bottom{
+        height: 35vmin;
+    }
+    #footer .list{
+        padding: 0 !important;
+    }
+    #footer .list-item{
+        font-size: 5vw;
+     }
+     #footer .policy p{
+        font-size: 5vw;
+    }
+    .title{
+        font-size: 8vw;
+    }
+    /* show evidenc */
+    #madrak{
+        width: 80vw;
+        height: 100vw;
+    }
+    
+    #main .inquiry .input {
+        width: 40vw;
+        height: 40px;
+        font-size:3vw;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    header .nav-item .nav-link{
+        font-size: 3vw;
+    }
+
+    #main .inquiry .title::after{
+        content: "";
+        position: absolute;
+        width: 15vw;
+        border-bottom: 5px solid #007bff;
+        top: 60px;
+        left: 20vw;
+    }
+    #main .inquiry .title::before{
+        content: "";
+        position: absolute;
+        width: 15vw;
+        border-bottom: 5px solid #007bff;
+        top: 60px;
+        right: 20vw;
+    
+    }
+    #def .conditions .title::after{
+        content: "";
+        position: absolute;
+        width: 15vw;
+        border-bottom: 5px solid #ffc107;
+        top: 30px;
+        left: 8vw;
+    }
+    #def .conditions .title::before{
+        content: "";
+        position: absolute;
+        width: 15vw;
+        border-bottom: 5px solid #ffc107;
+        top: 30px;
+        right: 8vw;
+    }
+    #def .credit .title::after{
+        content: "";
+        position: absolute;
+        width: 15vw;
+        border-bottom: 5px solid #343a40;
+        top: 30px;
+        left: 1vw;
+    }
+    #def .credit .title::before{
+        content: "";
+        position: absolute;
+        width: 15vw;
+        border-bottom: 5px solid #343a40;
+        top: 30px;
+        right: 1vw;
+    }
+    #main #article .title::after{
+        content: "";
+        position: absolute;
+        width: 20vw;
+        border-bottom: 5px solid #28a745;
+        top: 60px;
+        left: 5vw;
+    }
+    #main #article .title::before{
+        content: "";
+        position: absolute;
+        width: 20vw;
+        border-bottom: 5px solid #28a745;
+        top: 60px;
+        right: 5vw;
+    }
+    .title{
+        font-size: 3vw;
+    }
+    /* show evidenc */
+    #madrak{
+        width: 80vw;
+        height: 100vw;
+    }
+    #main .inquiry .input{
+        
+        width: 25vw;
+        height: 40px;
+        
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #main .inquiry .title::after{
+        content: "";
+        position: absolute;
+        width: 20vw;
+        border-bottom: 5px solid #007bff;
+        top: 60px;
+        left: 20vw;
+    }
+    #main .inquiry .title::before{
+        content: "";
+        position: absolute;
+        width: 20vw;
+        border-bottom: 5px solid #007bff;
+        top: 60px;
+        right: 20vw;
+    
+    }
+    #def .conditions .title::after{
+        content: "";
+        position: absolute;
+        width: 20vw;
+        border-bottom: 5px solid #ffc107;
+        top: 30px;
+        left: 4vw;
+    }
+    #def .conditions .title::before{
+        content: "";
+        position: absolute;
+        width: 20vw;
+        border-bottom: 5px solid #ffc107;
+        top: 30px;
+        right: 4vw;
+    }
+    #def .credit .title::after{
+        content: "";
+        position: absolute;
+        width: 19vw;
+        border-bottom: 5px solid #343a40;
+        top: 30px;
+        left: 1vw;
+    }
+    #def .credit .title::before{
+        content: "";
+        position: absolute;
+        width: 19vw;
+        border-bottom: 5px solid #343a40;
+        top: 30px;
+        right: 1vw;
+    }
+    #main #article .title::after{
+        content: "";
+        position: absolute;
+        width: 20vw;
+        border-bottom: 5px solid #28a745;
+        top: 60px;
+        left: 5vw;
+    }
+    #main #article .title::before{
+        content: "";
+        position: absolute;
+        width: 20vw;
+        border-bottom: 5px solid #28a745;
+        top: 60px;
+        right: 5vw;
+    }
+    #footer .list-item {
+        color: #222222;
+        font-size: 22px;
+        cursor: default;
+        transition: all 0.5s ease;
+        display: inline;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    header .nav-item .nav-link{
+        font-size: 1.25vw;
+    }
+    #main .inquiry .title::after{
+        content: "";
+        position: absolute;
+        width: 20vw;
+        border-bottom: 5px solid #007bff;
+        top: 60px;
+        left: 20vw;
+    }
+    #main .inquiry .title::before{
+        content: "";
+        position: absolute;
+        width: 20vw;
+        border-bottom: 5px solid #007bff;
+        top: 60px;
+        right: 20vw;
+    
+    }
+    #def .conditions .title::after{
+        content: "";
+        position: absolute;
+        width: 20vw;
+        border-bottom: 5px solid #ffc107;
+        top: 30px;
+        left: 100px;
+    }
+    #def .conditions .title::before{
+        content: "";
+        position: absolute;
+        width: 20vw;
+        border-bottom: 5px solid #ffc107;
+        top: 30px;
+        right: 100px;
+    }
+    #def .credit .title::after{
+        content: "";
+        position: absolute;
+        width: 19vw;
+        border-bottom: 5px solid #343a40;
+        top: 30px;
+        left: 95px;
+    }
+    #def .credit .title::before{
+        content: "";
+        position: absolute;
+        width: 19vw;
+        border-bottom: 5px solid #343a40;
+        top: 30px;
+        right: 95px;
+    }
+    #main #article .title::after{
+        content: "";
+        position: absolute;
+        width: 20vw;
+        border-bottom: 5px solid #28a745;
+        top: 60px;
+        left: 150px;
+    }
+    #main #article .title::before{
+        content: "";
+        position: absolute;
+        width: 20vw;
+        border-bottom: 5px solid #28a745;
+        top: 60px;
+        right: 150px;
+    }
+    .title{
+        font-size: 2.5vw;
+    }
+    #madrak{
+        width: 80vw;
+        height: 190vh;
+    }
+    #main .inquiry .input{
+        
+        width: 20vw;
+        height: 40px;
+        
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    header .nav-item .nav-link{
+        color: #222222;
+        font-size: 1.5vw;
+        font-weight: 700;
+        transition: all 0.5s ease;
+        padding-left: 20px !important;
+    }
+    
+}
